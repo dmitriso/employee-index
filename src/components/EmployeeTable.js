@@ -25,7 +25,12 @@ class EmployeeTable extends Component {
     }
 
 
-
+    handleInputChange = event => {
+        this.setState({ search: event.target.value });
+        if (event.target.value === "")
+            this.setState({ employees: this.state.results });
+        console.log(this.state.search);
+    };
 
 
 
