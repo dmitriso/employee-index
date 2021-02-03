@@ -33,7 +33,12 @@ class EmployeeTable extends Component {
     };
 
 
-
+    handleFormSubmit = event => {
+        event.preventDefault();
+        this.setState({ results: this.state.employees })
+        this.setState({ employees: this.state.employees.filter((employee) => employee.name.first.toLowerCase() === this.state.search)});
+        console.log("results:",this.state.results);
+    };
 
 
     render() {
