@@ -5,6 +5,21 @@ import SearchForm from "./SearchForm";
 
 
 class EmployeeTable extends Component {
+    state = {
+        employees: [],
+        results: [],
+        search: ""
+    };
+
+
+
+
+
+
+
+
+
+
 
 
     render() {
