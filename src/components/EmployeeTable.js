@@ -15,7 +15,14 @@ class EmployeeTable extends Component {
         this.searchEmployees();
     }
 
-
+    searchEmployees = () => {
+        API.search()
+            .then(res => this.setState({
+                employees: res.data.results,
+                results: res.data.results
+            }))
+            .catch(err => console.log(err));
+    }
 
 
 
