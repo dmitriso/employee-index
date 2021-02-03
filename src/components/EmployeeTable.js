@@ -11,7 +11,9 @@ class EmployeeTable extends Component {
         search: ""
     };
 
-
+    componentDidMount() {
+        this.searchEmployees();
+    }
 
 
 
