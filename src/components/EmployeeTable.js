@@ -44,7 +44,19 @@ class EmployeeTable extends Component {
         })
         console.log(this.state.search);
     };
+    // THIS SORTS THE TABLE BY DESCENDING AGE
+    handleSortByAgeDescend = event => {
+        event.preventDefault();
+        const employeeArr = this.state.employees;
+        const sortedEmployeeArr = employeeArr.sort((a, b) => {
+            return b.dob.age - a.dob.age;
+        });
+        this.setState({
+            filteredEmployees: sortedEmployeeArr,
+            employees: sortedEmployeeArr
+        });
 
+    }
 
 
 
