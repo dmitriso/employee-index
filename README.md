@@ -31,7 +31,7 @@ Dmitri K. So
 
 
 
-![Usage-Gif](./public/assets/gifs/.gif)
+![Usage-Gif](./public/assets/gifs/Employee-Index.gif)
 
 
 <p> This is a deployed application, which means no installation is required! To access this Employee-Index, locate the url for the deployed app at the bottom of this read me. Once clicked you will be brought to the apps main page. The app is very simple to use! A table of randomly generate employees will be displayed for you. You can search an employee by name if you would like. Type in any name or segment of letters to filter out the employees. As well as filtering, you may also sort the employees by their age. There are two buttons located next to the submit button. One of which will sort the table by descending age order and the other by ascending age. </p>
@@ -56,9 +56,9 @@ Dmitri K. So
 
 ## URL's
 
-* [Heroku-Deployed-App]()
+* [Heroku-Deployed-App](https://dmitriso.github.io/employee-index/)
 * [GitHub-Repository](https://github.com/dmitriso/Employee-Index)
-* [Usage-Video-Guide]()
+* [Usage-Video-Guide](https://youtu.be/yWW_FmCnoY8)
 
 <br>
 
