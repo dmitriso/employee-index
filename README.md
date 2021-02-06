@@ -56,7 +56,7 @@ Dmitri K. So
 
 ## URL's
 
-* [Heroku-Deployed-App](https://dmitriso.github.io/employee-index/)
+* [Deployed-App](https://dmitriso.github.io/employee-index/)
 * [GitHub-Repository](https://github.com/dmitriso/Employee-Index)
 * [Usage-Video-Guide](https://youtu.be/yWW_FmCnoY8)
 
